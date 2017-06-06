@@ -1,0 +1,2 @@
+# increase heap size
+-Xmx512M
