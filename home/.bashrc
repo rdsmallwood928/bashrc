@@ -42,7 +42,7 @@ else
 fi
 
 if [ "${PLATFORM}" = "darwin" ] ; then
-  export ECLIPSE_HOME=/opt/homebrew-cask/Caskroom/eclipse-java/4.5/Eclipse.app/Contents/Eclipse;
+  export ECLIPSE_HOME="/Applications/Eclipse Java.app/Contents/Eclipse";
 else
   export ECLIPSE_HOME=/opt/eclipse
 fi
