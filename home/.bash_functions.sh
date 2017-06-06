@@ -262,7 +262,7 @@ starteclimd() {
     sleep 5;
     DISPLAY=:98 ${ECLIPSE_HOME}/eclimd -b
   else
-    ${ECLIPSE_HOME}/eclipse/eclimd -b
+    ${ECLIPSE_HOME}/eclimd -b
   fi
 }
 
