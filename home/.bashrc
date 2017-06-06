@@ -42,7 +42,7 @@ else
 fi
 
 if [ "${PLATFORM}" = "darwin" ] ; then
-  export ECLIPSE_HOME=/Applications/Eclipse.app/Contents/Eclipse/;
+  export ECLIPSE_HOME=/Applications/Eclipse.app/Contents/Eclipse;
 else
   export ECLIPSE_HOME=/opt/eclipse
 fi
