@@ -167,7 +167,7 @@ updateplatform() {
 }
 
 eclim_setup() {
-  wget http://sourceforge.net/projects/eclim/files/eclim/2.6.0/eclim_2.6.0.jar
+  wget https://github.com/ervandew/eclim/releases/download/2.6.0/eclim_2.6.0.jar
   java -Dvim.files=${HOME}/.vim -Declipse.home=${ECLIPSE_HOME} -jar eclim_2.6.0.jar install
   rm eclim_2.6.0.jar
 }
