@@ -1,7 +1,7 @@
 #Set up the PATH
 export ANDROID_HOME=${HOME}/Development/android
 #appending .local to path so that pip --user installs are found
-export PATH=$BRAZIL_CLI_BIN:/usr/local/bin:${HOME}/.linuxbrew/bin:${HOME}/bin:${PATH}:${HOME}/.local/bin:${ANDROID_HOME}/tools"
+export PATH=${BRAZIL_CLI_BIN}:/usr/local/bin:${HOME}/.linuxbrew/bin:${HOME}/bin:${PATH}:${HOME}/.local/bin:${ANDROID_HOME}/tools"
 
 export EDITOR="vim"
 export VISUAL="${EDITOR}"
