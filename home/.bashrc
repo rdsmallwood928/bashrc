@@ -1,21 +1,13 @@
-#Set up the PATH
-export ANDROID_HOME=${HOME}/Development/android
 #appending .local to path so that pip --user installs are found
-export PATH="${BRAZIL_CLI_BIN}:/usr/local/bin:${HOME}/.linuxbrew/bin:${HOME}/bin:${PATH}:${HOME}/.local/bin:${ANDROID_HOME}/tools"
+export PATH="${BRAZIL_CLI_BIN}:${HOME}/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/bin:/usr/local/bin:${HOME}/bin:${HOME}/.local/bin:${PATH}"
 
 export EDITOR="vim"
 export VISUAL="${EDITOR}"
 export LANG=en_US.UTF-8
+
 # ${HOME}/.bashrc: executed by bash(1) for non-login shells.  If not running
 # interactively, don't do anything
 [[ -z "${PS1}" ]] && retudefault
-# Load the shell dotfiles, and then some:
-# # * ~/.path can be used to extend `$PATH`.
-# # * ~/.extra can be used for other settings you don't want to commit.
-for file in ~/.{path,bash_prompt,exports,aliases,bash_functions,extra}; do
-  [ -r "$file" ] && source "$file"
-done
-unset file
 
 # Source my functions and start setting up my PATH
 source "${HOME}/.bash_functions.sh"
